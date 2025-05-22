@@ -25,7 +25,7 @@ Este proyecto utiliza una red neuronal convolucional (CNN) con TensorFlow/Keras 
 
 Puedes abrir el notebook directamente en Google Colab:
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StefanMarioMagura/Proyecto1-IA-gatos-perros/blob/main/proyecto1.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StefanMarioMagura/Proyecto1-IA-gatos-perros/blob/master/proyecto1.ipynb)
 
 ---
 
