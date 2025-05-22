@@ -1,69 +1,53 @@
-# 🐶🐱 Proyecto 1 - Clasificador de imágenes: Gatos vs Perros
+# Proyecto 1: Clasificador de Imágenes - Gatos vs. Perros 🐶🐱
 
-Este proyecto utiliza una red neuronal convolucional (CNN) con TensorFlow/Keras para clasificar imágenes de gatos y perros. Es un proyecto introductorio de inteligencia artificial (IA) orientado a la visión por computador.
-
----
-
-## 📁 Contenido del proyecto
-
-- `proyecto1.ipynb`: Notebook completo con el código, entrenamiento del modelo y visualización de resultados.
-- Dataset: Se usa el conjunto de datos `cats_vs_dogs` de TensorFlow Datasets (se descarga automáticamente).
-- Métricas: Se muestra precisión (`accuracy`) y función de pérdida (`loss`) durante el entrenamiento.
+Este proyecto de inteligencia artificial entrena un modelo con TensorFlow/Keras para clasificar imágenes entre **gatos** y **perros**. Es el primero de una serie de tres proyectos de IA realizados para aprendizaje práctico.
 
 ---
 
-## 🧠 Objetivo de aprendizaje
+## 🔍 Descripción
 
-- Comprender cómo funciona una red neuronal convolucional (CNN).
-- Aprender a cargar y preprocesar imágenes con TensorFlow.
-- Entrenar un modelo para clasificación binaria.
-- Visualizar resultados y evaluar el rendimiento del modelo.
-
----
-
-## ▶️ ¿Cómo ejecutar?
-
-Puedes abrir el notebook directamente en Google Colab:
-
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StefanMarioMagura/Proyecto1-IA-gatos-perros/blob/master/proyecto1.ipynb)
-
+- Se utilizan imágenes de gatos y perros para entrenar un modelo de red neuronal convolucional (CNN).
+- El modelo procesa las imágenes, las normaliza, entrena con ellas y evalúa su rendimiento.
+- El objetivo es que el modelo sea capaz de predecir correctamente si una imagen representa un gato o un perro.
 
 ---
 
-## 🧪 Tecnologías usadas
+## ▶️ Abrir en Google Colab
 
-- Python
-- TensorFlow / Keras
-- NumPy
-- Google Colab (entorno de desarrollo)
+Puedes ejecutar el proyecto directamente desde Google Colab con el siguiente botón:
 
----
-
-## 📌 Resultados obtenidos
-
-- Precisión final en validación: ~85% (puede variar ligeramente).
-- Buen rendimiento general para un modelo simple de clasificación de imágenes.
-- Visualización clara de predicciones correctas e incorrectas.
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StefanMarioMagura/Proyecto1-IA-gatos-perros/blob/master/Proyecto1.ipynb)
 
 ---
 
-## 📂 Estructura del repositorio
+## 📁 Archivos del repositorio
 
-Proyecto1-IA-gatos-perros/
-│
-├── proyecto1.ipynb ← Notebook principal del proyecto
-└── README.md ← Este archivo
-
-yaml
-Copiar
-Editar
+- `Proyecto1.ipynb`: Cuaderno Jupyter con todo el código, explicaciones y resultados del modelo.
+- `README.md`: Este archivo de documentación.
 
 ---
 
-## 👨‍💻 Autor
+## 🧠 Tecnologías utilizadas
 
-**Stefan Mario Magura**
-
-Este proyecto forma parte de mi portafolio de aprendizaje en Inteligencia Artificial.
+- Python 🐍
+- TensorFlow & Keras 📦
+- Google Colab 💻
+- Deep Learning (CNN)
 
 ---
+
+## 📌 Notas
+
+- El archivo se ejecuta mejor en Google Colab por los recursos gratuitos de GPU.
+- Si al abrir el link te aparece error, asegúrate de:
+  - Estar logueado con tu cuenta de Google.
+  - Haber autorizado a Colab a acceder a GitHub.
+  - Elegir correctamente la rama `master` en el selector de Colab.
+
+---
+
+## 📬 Autor
+
+Stefan Mario Magura – [GitHub](https://github.com/StefanMarioMagura)
+
+
