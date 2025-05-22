@@ -44,6 +44,8 @@ Puedes ejecutar el proyecto directamente desde Google Colab con el siguiente bot
   - Haber autorizado a Colab a acceder a GitHub.
   - Elegir correctamente la rama `master` en el selector de Colab.
 
+  ⚠️ Nota: El conjunto de datos utilizado es reducido y puede contener imágenes repetidas o similares. El objetivo era demostrar el funcionamiento básico del modelo y su capacidad de aprender patrones visuales simples.
+
 ---
 
 ## 📬 Autor
